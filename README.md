@@ -40,7 +40,4 @@ It simulates a real operating system with draggable windows, terminal, context m
 I wanted a portfolio that felt **alive** — something that captures both my frontend skills and creative expression.  
 Instead of a traditional webpage, this project emulates a **mini operating system** to reflect my personality and technical abilities.
 
----
-
-## 📂 File Structure
 
