@@ -4,9 +4,12 @@ module.exports = {
     "./static/**/*.{html,js,jsx,css}",
     "./**/*.{html,js,jsx,py}",
     "!./node_modules",
-],
+  ],
   theme: {
     extend: {},
   },
+  safelist: [
+    { pattern: /(bg|backdrop|opacity|from|to|via)-.*/ },
+  ],
   plugins: [],
 }
