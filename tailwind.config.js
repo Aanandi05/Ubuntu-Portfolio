@@ -1,8 +1,10 @@
 module.exports = {
   content: [
-    "./pages/**/*.{js,jsx}",
-    "./components/**/*.{js,jsx}",
-  ],
+    "./templates/**/*.{html,js,jsx}",
+    "./static/**/*.{html,js,jsx,css}",
+    "./**/*.{html,js,jsx,py}",
+    "!./node_modules",
+],
   theme: {
     extend: {},
   },
